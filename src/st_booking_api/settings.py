@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'djoser',
+
 
 ]
 
@@ -151,4 +153,14 @@ SIMPLE_JWT = {
     "ROTATE_REFRESH_TOKENS": False,
     "BLACKLIST_AFTER_ROTATION": False,
     "UPDATE_LAST_LOGIN": False
+}
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Stadium Booking",
+    "site_header": "Stadium Booking",
+    "site_brand": "Stadium Booking",
+    "welcome_sign": "Welcome to Stadium Booking",
+    "copyright": "Stadium Booking",
+    "search_model": "auth.User",  # Example of adding a custom search model
+    # Other custom settings
 }
