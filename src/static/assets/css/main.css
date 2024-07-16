@@ -1,0 +1,23 @@
+.brand-text {
+    display: none !important;
+}
+
+.brand-link .brand-image {
+    float: none !important;
+    max-height: 50px !important;
+    box-shadow: none !important;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
+
+#cke_id_description_en, #cke_id_description_uz, #cke_id_description_ru,
+#cke_id_body_en, #cke_id_body_ru, #cke_id_body_uz, #cke_id_short_description_en,
+#cke_id_short_description_uz, #cke_id_short_description_ru, #cke_id_answer_en,
+#cke_id_answer_ru, #cke_id_answer_uz, #cke_id_title_en, #cke_id_title_ru, #cke_id_title_uz,
+#cke_id_tuition_fee_description_en, #cke_id_tuition_fee_description_ru, #cke_id_tuition_fee_description_uz,
+#cke_id_study_plan_description_en, #cke_id_study_plan_description_ru, #cke_id_study_plan_description_uz
+{
+    width: 100% !important;
+}
